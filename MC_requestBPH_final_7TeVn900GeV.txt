@@ -1,0 +1,59 @@
+MC request BPH
+
+Brief summary / physics motivation, please refer:
+https://indico.cern.ch/event/777184/contributions/3245312/attachments/1772544/2881027/BPHproductionplan.pdf
+
+MC reference that we refer to: 
+https://eospublichttp.cern.ch/eos/opendata/cms/upload/mc/Summer12/MinBias_TuneZ2star_7TeV_pythia6
+
+-----------------------------
+7TeV with 2010 Configuration
+-----------------------------
+1. Description: Minimum Bias with charm filter
+2. No. of Event: 20 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/SevenTeV/MinBias_charmfilter_TuneZ2star_7TeV_pythia6_cff.py
+4. DEC file: NA
+5. Filter eff.:0.090 out of 150000 events
+6. GEN-SIM event timing and size: 3.080 sec/event (input), 432.13 kB/event (output)
+
+1. Description: Minimum Bias with beauty filter
+2. No. of Event: 2 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/SevenTeV/MinBias_beautyfilter_TuneZ2star_7TeV_pythia6_cff.py
+4. DEC file: NA
+5. Filter eff.:0.0066 out of 1000000 events
+6. GEN-SIM event timing and size: 0.29 sec/event (input), 515.00 kB/event (output)
+
+1. Description: Minimum Bias with D0 to Kaon and pion filter
+2. No. of Event: 5 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/SevenTeV/D0Kpi_pT0toInf_TuneZ2star_7TeV_pythia6_cff.py
+4. DEC file: /afs/cern.ch/user/n/nujomhar/public/GEN/dec/D0_Kpi.dec
+5. Filter eff.:0.0047 out of 10000000 events
+6. GEN-SIM event timing and size: 0.20 sec/event (input), 490.38 kB/event (output)
+
+1. Description: Minimum Bias with D+ to Kaon, pion and pion filter
+2. No. of Event: 5 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/SevenTeV/DplusKpipi_pT0toInf_TuneZ2star_7TeV_pythia6_cff.py
+4. DEC file: /afs/cern.ch/user/n/nujomhar/public/GEN/dec/Dplus_Kpipi.dec
+5. Filter eff.:0.0028 out of 30000000 events
+6. GEN-SIM event timing and size: 0.11 sec/event (input), 520.53 kB/event (output)
+
+
+--------
+900 GeV
+--------
+1. Description: Minimum Bias with charm filter
+2. No. of Event: 2 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/NineHundredGeV/MinBias_charmfilter_TuneZ2star_900GeV_pythia6_cff.py
+4. DEC file: NA
+5. Filter eff.:0.024 out of 1000000 events
+6. GEN-SIM event timing and size: 0.32 sec/event (input), 218.00 kB/event (output)
+
+
+1. Description: Minimum Bias with beauty filter
+2. No. of Event: 100000
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/NineHundredGeV/MinBias_beautyfilter_TuneZ2star_900GeV_pythia6_cff.py
+4. DEC file: NA
+5. Filter eff:0.00052 out of 20000000 events
+6. GEN-SIM event timing and size: 0.01 sec/event (input), 638.45 kB/event (output)
+
+

@@ -1,0 +1,14 @@
+# D+_Kpipi.dec
+#
+# This is the decay file for the decay D+ -> K-pi+pi+
+#
+Alias	 myD+	D+
+Alias	 myD- 	D-
+ChargeConj    myD-	myD+
+#
+Decay	myD+
+1.000	K-	pi+	pi+	PHSP;
+Enddecay
+CDecay	myD-
+#
+End

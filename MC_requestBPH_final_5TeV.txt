@@ -1,0 +1,88 @@
+MC request BPH
+
+Brief summary / physics motivation, please refer:
+https://indico.cern.ch/event/777184/contributions/3245312/attachments/1772544/2881027/BPHproductionplan.pdf (slide 1 & 18)
+
+-----------------------------
+5TeV with 2015 configuration
+-----------------------------
+
+MC reference that we refer to: 
+/MinBias_TuneCUETP8M1_5p02TeV-pythia8/HINppWinter16DR-NoPU_75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/AODSIM
+
+1. Description: Minimum Bias
+2. No. of Event: 50 Million (without pileup)
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/MinBias_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: NA
+5. Filter eff.: 1.00 (4,682 out of 4,682 events)
+6. GEN-SIM timing and size: 2.82 sec/event and 142 kB/event
+7. Cross section after filter: 6.789e+10 +- 7.549e+01 pb
+
+MC reference that we refer to: 
+/PrmtD0_pThat-0_pT-0_pp_5p02-Pythia8/HINppWinter16DR-75X_mcRun2_asymptotic_ppAt5TeV_v3-v1/AODSIM
+
+1. Description: Minimum Bias
+2. No. of Event: 50 Million (with pileup)
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/MinBias_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: NA
+5. Filter eff.: 1.00 (4,682 out of 4,682 events)
+6. GEN-SIM timing and size: 2.82 sec/event and 142 kB/event
+7. Cross section after filter: 6.789e+10 +- 7.549e+01 pb
+
+1. Description: Minimum Bias with charm filter
+2. No. of Event: 45 Million (with pileup)
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/MinBias_charmfilter_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: NA
+5. Filter eff.: 0.073 (10,926 out of 150,000 events)
+6. GEN-SIM timing and size: 0.47 sec/event and 311 kB/event
+7. Cross section after filter: 4.997e+09 +- 1.773e+08 pb
+
+1. Description: Minimum Bias with beauty filter
+2. No. of Event: 5 Million (with pileup)
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/MinBias_beautyfilter_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: NA
+5. Filter eff.: 0.0044 (4,354 out of 1,000,000 events)
+6. GEN-SIM event timing and size: 0.038 sec/event and 373 kB/event
+7. Cross section after filter: 2.580e+08 +- 4.177e+07 pb
+
+1. Description: Minimum Bias with D0 to Kaon and pion filter
+2. No. of Event: 12 Million (with pileup)
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/D0Kpi_pT0toInf_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: Already exist in CMSSW_7_1_X
+5. Filter eff.: 0.0036 (36,052 out of 10,000,000 events)
+6. GEN-SIM event timing and size: 0.058 sec/event and 297 kB/event
+7. Cross section after filter: 2.987e+08 +- 4.494e+07 pb
+
+1. Description: Minimum Bias with D+ to Kaon, pion and pion filter
+2. No. of Event: 12 Million
+3. GEN Fragment: /afs/cern.ch/user/n/nujomhar/public/GEN/things_needed/frag/FiveTeV/DplusKpipi_pT0toInf_TuneCUEP8M1_5TeV_pythia8_cff.py
+4. DEC file: Embedded in the fragment
+5. Filter eff.: 0.0045 (135,397 out of 30,000,000 events)
+6. GEN-SIM event timing and size: 0.084 sec/event and 341 kB/event
+7. Cross section after filter: 3.259e+08 +- 4.692e+07 pb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
